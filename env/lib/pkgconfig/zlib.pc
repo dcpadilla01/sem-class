@@ -1,0 +1,13 @@
+prefix=/Users/dianapadilla/Documents/sem-class/sem-class/env
+exec_prefix=/Users/dianapadilla/Documents/sem-class/sem-class/env
+libdir=/Users/dianapadilla/Documents/sem-class/sem-class/env/lib
+sharedlibdir=/Users/dianapadilla/Documents/sem-class/sem-class/env/lib
+includedir=/Users/dianapadilla/Documents/sem-class/sem-class/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
