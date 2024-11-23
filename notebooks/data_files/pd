@@ -1,0 +1,13 @@
+digraph G {
+	overlap=scale splines=true
+	edge [fontsize=12]
+	node [fillcolor="#cae6df" shape=circle style=filled]
+	JobPerf [label=JobPerf]
+	node [shape=box style=""]
+	ClientSat [label=ClientSat]
+	ProjCompl [label=ProjCompl]
+	SuperSat [label=SuperSat]
+	JobPerf -> ClientSat [label=1.000]
+	JobPerf -> SuperSat [label="2.560\np-val: 0.00"]
+	JobPerf -> ProjCompl [label="2.071\np-val: 0.00"]
+}
